@@ -195,7 +195,8 @@ export const SecodaryView =StyleSheet.create({
     },
     textContainer:{
       paddingTop:5,
-      marginTop:30,
+      marginTop:CalculateValue(10,BaseHeight),
+      
       paddingBottom:5,
       marginLeft:CalculateValue(20,BaseWidth),
       marginRight:CalculateValue(20,BaseWidth),
@@ -204,7 +205,7 @@ export const SecodaryView =StyleSheet.create({
      // alignSelf:"center",
     
       backgroundColor:"white",
-      marginBottom:40  
+      marginBottom:CalculateValue(10,BaseHeight),
     },
     TextTitle:{
         fontSize:22,
